@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  height: 84px;
+}
+
+.top-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #f1f1f1;
+  font-size: 13px;
+}
+.bottom-div {
+  height: 44px;
+  background-color: rgba(22, 22, 23, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 30px;
+  height: 44px;
+}
+.header-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.iphone16-pro,
+.iphone16,
+.ipad {
+  padding-top: 55px;
+  background-position: center;
+  width: 1520px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iphone16-pro {
+  background-image: url(/images/hero_iphone_16.jpeg);
+}
+.iphone16 {
+  background-image: url(/images/hero_iphone_16_2.jpeg);
+  margin-top: 20px;
+}
+.ipad {
+  background-image: url(/images/ipad-mini.jpeg);
+}
+.headline {
+  font-size: 56px;
+  color: #fff;
+}
+.subhead {
+  color: #fff;
+  font-size: 28px;
+  padding: 20px 0;
+}
+.learnbtn {
+  background-color: #0071e3;
+  color: #fff;
+  font-size: 17px;
+  padding: 11px 21px;
+  border-radius: 20px;
+  /* width: 140px;
+    height: 30px; */
+  text-align: center;
+}
+.second {
+  background-color: #f5f5f7;
+  color: black;
+}
+.third {
+  color: black;
+}
+.Products {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.cards {
+  width: 49%;
+  height: 580px;
+  background-position: center;
+}
+.watch-series10 {
+  background-image: url(/images/promo_apple_watch_series_10.jpeg);
+}
+.watch-ultra {
+  background-image: url(/images/promo_apple_watch_ultra2.jpeg);
+}
+.airpods4 {
+  background-image: url(/images/promo_airpods_4.jpeg);
+}
+.airpodsmax {
+  background-image: url(/images/promo_airpodsmax.jpeg);
+}
+.watch-se {
+  background-image: url(/images/promo_apple_watch.jpeg);
+}
+.ipad-pro {
+  background-image: url(/images/promo_ipadpro.jpeg);
+}
