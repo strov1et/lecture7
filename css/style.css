@@ -42,9 +42,9 @@ header {
 }
 .header-list a {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .iphone16-pro,
@@ -105,15 +105,53 @@ header {
   width: 49%;
   height: 580px;
   background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 .watch-series10 {
   background-image: url(/images/promo_apple_watch_series_10.jpeg);
 }
+
+.cards-wrapper {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.card-logo {
+  width: 30px;
+  height: 30px;
+}
+.cards-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.white {
+  color: #f1f1f1;
+}
+.orange {
+  color: orange;
+}
+
 .watch-ultra {
   background-image: url(/images/promo_apple_watch_ultra2.jpeg);
 }
 .airpods4 {
   background-image: url(/images/promo_airpods_4.jpeg);
+  /* display: flex;
+  justify-content: flex-end;  */
+}
+.airpodsmax,
+.airpods4 {
+  display: flex;
+  justify-content: flex-end;
+}
+.airpods-btn {
+  margin-bottom: 60px;
 }
 .airpodsmax {
   background-image: url(/images/promo_airpodsmax.jpeg);
@@ -123,4 +161,41 @@ header {
 }
 .ipad-pro {
   background-image: url(/images/promo_ipadpro.jpeg);
+}
+h3 {
+  margin-top: 60px;
+}
+footer {
+  background-color: #f5f5f7;
+  padding: 30px 0;
+}
+.section-products {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-title {
+  color: #000;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.section-items {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000bb;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.paragrapt-content {
+  width: 980px;
+  height: 365px;
+  margin: 0 auto;
+}
+.para-items {
+  font-size: 12px;
+  color: #000000bb;
+  margin-bottom: 10px;
 }
